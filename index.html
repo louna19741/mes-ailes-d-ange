@@ -271,7 +271,7 @@
   .map-btn-secondary:hover { background: var(--stone-600); }
 
   /* CONTACT FORM */
-  .contact-form-box { background: #fff; color: var(--stone-800); border-radius: 2rem; padding: 32px; display: flex; flex-direction: column; justify-content: space-between; }
+  .contact-form-box { background: #fff; color: var(--stone-800); border-radius: 2rem; padding: 32px; display: flex; flex-direction: column; justify-content: space-between;  align-items: stretch; }
   .contact-form-box h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; margin-bottom: 6px; }
   .contact-form-box .form-note { font-size: 0.85rem; color: var(--stone-500); margin-bottom: 24px; }
   .form-group { margin-bottom: 16px; }
@@ -743,7 +743,7 @@
           <label for="fmessage">Votre message <span style="color:var(--stone-400);font-weight:400">(facultatif)</span></label>
           <textarea id="fmessage" rows="4" placeholder="En quelques mots, pourquoi souhaitez-vous consulter ?"></textarea>
         </div>
-        <button class="btn-submit" onclick="submitForm()" style="justify-content:center;gap:8px;">
+        <button class="btn-submit" onclick="submitForm()" style="justify-content:center !important;gap:8px !important;">
           <span style="display:flex;align-items:center;justify-content:center;gap:8px;width:100%">
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
     Envoyer ma demande
