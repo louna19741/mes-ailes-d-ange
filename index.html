@@ -1,7 +1,90 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  
+<!-- ============================================================ -->
+<!-- DONNÉES STRUCTURÉES SCHEMA.ORG — Mes Ailes d'Ange -->
+<!-- À coller juste avant la balise </head> de index.html -->
+<!-- ============================================================ -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HealthAndBeautyBusiness",
+  "name": "Mes Ailes d'Ange — Marie-Ange Nocella",
+  "image": "https://www.mesailesdange.fr/partage-reseaux.jpg",
+  "url": "https://www.mesailesdange.fr/",
+  "telephone": "+33613428498",
+  "email": "Marie.nocella@icloud.com",
+  "priceRange": "40€-50€",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "46 bis rue de la Saône",
+    "addressLocality": "Losne",
+    "postalCode": "21170",
+    "addressCountry": "FR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 47.1150,
+    "longitude": 5.2730
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "opens": "09:00",
+    "closes": "19:00"
+  },
+  "description": "Cabinet de soins à Losne (21170). Séances de Niromathé®, magnétisme et relation d'aide pour soulager douleurs, tensions et retrouver votre bien-être.",
+  "areaServed": [
+    { "@type": "City", "name": "Losne" },
+    { "@type": "City", "name": "Dole" },
+    { "@type": "City", "name": "Dijon" }
+  ],
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "itemOffered": { "@type": "Service", "name": "Méthode Niromathé®", "description": "Thérapie manuelle tissulaire réflexe et neuro-cutanée. Idéale pour les lumbagos, torticolis, tendinites, névralgies." },
+      "price": "50",
+      "priceCurrency": "EUR"
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": { "@type": "Service", "name": "Magnétisme", "description": "Transmission d'énergie vitale pour rééquilibrer le corps et l'esprit. Efficace pour le stress, la fatigue, les problèmes de peau, les brûlures." },
+      "price": "50",
+      "priceCurrency": "EUR"
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": { "@type": "Service", "name": "Relation d'aide", "description": "Espace d'écoute active et bienveillante pour accompagner le deuil, la séparation, la perte d'emploi, la perte de sens." },
+      "price": "40",
+      "priceCurrency": "EUR"
+    }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "5"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Comment se déroule une première séance ?", "acceptedAnswer": { "@type": "Answer", "text": "Nous commençons par un temps d'échange pour mieux comprendre votre demande et votre histoire. Je vous explique ensuite la pratique choisie et nous démarrons le soin. Comptez environ une heure au total pour cette première rencontre, dans un cadre calme et bienveillant." } },
+    { "@type": "Question", "name": "Combien de séances sont nécessaires ?", "acceptedAnswer": { "@type": "Answer", "text": "Cela dépend de votre problématique. Pour la méthode Niromathé®, 1 à 3 séances suffisent généralement. Pour le magnétisme ou un accompagnement émotionnel, nous définissons ensemble le rythme qui vous convient — il n'y a aucune obligation de revenir." } },
+    { "@type": "Question", "name": "La méthode Niromathé® est-elle douloureuse ?", "acceptedAnswer": { "@type": "Answer", "text": "Non, c'est une thérapie manuelle très douce qui agit sur la peau, sans manipulation forcée ni craquement. La grande majorité des personnes ressent simplement un effleurement et une détente immédiate." } },
+    { "@type": "Question", "name": "Faut-il se déshabiller pendant les soins ?", "acceptedAnswer": { "@type": "Answer", "text": "Non, toutes les pratiques s'effectuent habillé. Il est simplement recommandé de porter des vêtements amples et confortables." } },
+    { "@type": "Question", "name": "Y a-t-il des contre-indications ?", "acceptedAnswer": { "@type": "Answer", "text": "Ces méthodes sont très douces et s'adressent à tous, des nourrissons aux personnes âgées. Cependant, elles ne remplacent en aucun cas un suivi médical. En cas de doute, demandez l'avis de votre médecin." } },
+    { "@type": "Question", "name": "Puis-je venir avec un enfant ou un nourrisson ?", "acceptedAnswer": { "@type": "Answer", "text": "Oui, j'accompagne aussi bien les bébés que les enfants et les adolescents. Les soins sont parfaitement adaptés à leur sensibilité et toujours réalisés en présence du parent." } },
+    { "@type": "Question", "name": "Comment régler la séance ?", "acceptedAnswer": { "@type": "Answer", "text": "Le règlement s'effectue en fin de séance, en espèces ou par chèque uniquement. Une facture peut vous être remise sur simple demande." } },
+    { "@type": "Question", "name": "Vos soins sont-ils remboursés ?", "acceptedAnswer": { "@type": "Answer", "text": "Mes pratiques relèvent des thérapies non conventionnelles et ne sont pas prises en charge par la Sécurité sociale. Certaines mutuelles proposent toutefois un forfait médecines douces : n'hésitez pas à vous renseigner auprès de la vôtre." } },
+    { "@type": "Question", "name": "Que faire si je dois annuler ou reporter ?", "acceptedAnswer": { "@type": "Answer", "text": "Vous pouvez annuler ou reporter votre rendez-vous à tout moment via le lien reçu dans votre email de confirmation, ou en m'appelant directement. Merci de prévenir au moins 24h à l'avance." } }
+  ]
+}
+</script>
+  <head>  
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YS6Z2KZ5CR"></script>
 <script>
